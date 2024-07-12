@@ -1,5 +1,5 @@
 /* About: Program to manipulate arithmethc operation on two numbers using "Nested Switch", 
-may be integer of flowting point numbers.
+may be integer or flowting point numbers.
 Author: Anil Roy
 */
 #include<stdio.h>
