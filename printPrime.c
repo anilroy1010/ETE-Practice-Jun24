@@ -1,3 +1,9 @@
+/*
+ About : This program will print Prime numbers in a Given Range. Used for loop and if
+  condition and included stdbool header file.
+  Author: Anil Roy
+
+*/
 #include<stdio.h>
 #include<stdbool.h>
 bool isPrime(int);
