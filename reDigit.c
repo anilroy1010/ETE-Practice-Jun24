@@ -1,3 +1,8 @@
+/*
+  About : This program will get a number and REVERSE the number using for loop.
+  Author: Anil Roy
+*/
+
 #include<stdio.h>
 int main(){
     int num;
