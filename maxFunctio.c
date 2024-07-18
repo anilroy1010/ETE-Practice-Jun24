@@ -3,7 +3,7 @@ About: This program is the use of function to find greatest number.
 Author: Anil Roy
 */
 #include<stdio.h>
-int maxFinder(int num1, int num2);
+void maxFinder(int num1, int num2);
 
 int main(){
  int x, y;
@@ -11,18 +11,23 @@ int main(){
  scanf("%d", &x);
  printf("Enter the Second Number:\n");
  scanf("%d", &y);
- maxFinder(x,y);
+ maxFinder(x,y); //called function
  
 return 0;
 }
-int maxFinder(int num1, int num2){
-    if (num1>num2)
+void  maxFinder(int num1, int num2){
+    
+    if(num1==num2){
+
+        printf("Both numbers are Equal.");
+     }
+    else if (num1>num2)
     {
         printf("%d is the greatest Number.",num1);
     }
-    else{
+     else{
 
-        printf("%d is greatest Number.", num2);
+        printf("%d is the greatest Number.", num2);
      }
-    return 0;
+     
 }
